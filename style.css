@@ -1,0 +1,21 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border: 2px solid black;
+  padding: 100px;
+  width: auto;
+  height: auto;
+  column-gap: 20px;
+  background-color: antiquewhite;
+  row-gap: 20px;
+  justify-items: center;
+  align-items: center;
+}
+
+.content {
+  text-align: center;
+  background-color: gold;
+  border: 2px solid black;
+  box-sizing: border-box;
+  padding: 10px;
+}
